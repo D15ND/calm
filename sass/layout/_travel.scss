@@ -1,0 +1,72 @@
+.travel {
+  background-color: $color-smoke;
+  .wrapper {
+    padding: 105px 200px 95px 200px;
+  }
+}
+
+.travel__upper {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+
+  .upper__card {
+    background-color: $color-white;
+    border-radius: 10px;
+  }
+
+  .upper__card-main{
+    width: 505px;
+  }
+
+  .card__heigthblock {
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .travel__subtitle {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: $color-gray;
+    margin: 10px 0;
+  }
+
+  .upper__desctription {
+    font-size: "Roboto";
+    font-size: 18px;
+    color: $color-gray;
+    margin-bottom: 69px;
+  }
+}
+
+
+.travel__midl {
+  display: flex;
+  justify-content: space-between;
+
+  .midl__card {
+    background-color: $color-white;
+    border-radius: 10px;
+  }
+
+  .card__description {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: $color-gray;
+  }
+
+  .card__date {
+    font-family: "Roboto";
+    font-size: 11px;
+    color: $color-gray;
+  }
+}
+
+.visit {
+  font-family: "Poppins";
+  font-size: 12px;
+  color: $color-gray-dark;
+  margin-top: 20px;
+}

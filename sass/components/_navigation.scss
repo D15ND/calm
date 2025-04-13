@@ -1,0 +1,20 @@
+.header__navigation {
+  width: 220px;
+  padding: 20px 0;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation__list {
+    list-style-type: none;
+
+    .navigation__link {
+      text-decoration: none;
+      color: $color-gray-dark;
+      font-family: Roboto;
+      font-size: 14px;
+    }
+  }
+}
