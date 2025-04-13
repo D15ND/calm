@@ -1,0 +1,43 @@
+.sign {
+  .wrapper {
+    padding: 102px 200px 113px 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sign__info {
+    width: 376px;
+    padding-top: 20px;
+  }
+  .sign__subtitle {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 400;
+    color: $color-gray-dark;
+    margin-bottom: 11px;
+  }
+
+  .sign__description {
+    font-family: "Roboto";
+    color: $color-gray-dark;
+  }
+
+  .sign__form {
+    width: 376px;
+    display: flex;
+    flex-direction: column;
+
+    .form__input {
+      margin-bottom: 10px;
+      width: 376px;
+      height: 38px;
+      border-radius: 10px;
+    }
+
+    .form__label {
+      font-family: "Roboto";
+      font-size: 12px;
+      color: $color-gray-dark;
+    }
+  }
+}
