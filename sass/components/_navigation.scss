@@ -15,6 +15,9 @@
       color: $color-gray-dark;
       font-family: Roboto;
       font-size: 14px;
+      transition: 0.3s ease-in;
+    }*:hover {
+      color: $color-goldenrode;
     }
   }
 }

@@ -25,6 +25,10 @@
   color: #353732;
   font-family: Roboto;
   font-size: 14px;
+  transition: 0.3s ease-in;
+}
+.header__navigation .navigation__list *:hover {
+  color: goldenrod;
 }
 
 .btn {
@@ -187,4 +191,57 @@
   font-family: "Roboto";
   font-size: 12px;
   color: #353732;
+}
+
+.intro {
+  background-color: #FAFAFA;
+}
+.intro .wrapper {
+  padding: 100px 200px;
+}
+.intro .block__img {
+  width: 200px;
+  border-radius: 10px;
+}
+.intro .intro__block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.intro .intro__block-pct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.intro .intro__block-pct .intro__textblock {
+  width: 550px;
+  margin-right: 30px;
+}
+.intro .intro__subtitle {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #353732;
+}
+.intro .intro__description {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #353732;
+  margin: 5px 0;
+}
+.intro .date {
+  font-family: "Roboto";
+  font-size: 11px;
+  color: #353732;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.view .view__box {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
 }/*# sourceMappingURL=main.css.map */
