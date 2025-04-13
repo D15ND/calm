@@ -21,3 +21,24 @@
     }
   }
 }
+
+.footer__navigation {
+  width: 335px;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation__list-footer {
+    list-style-type: none;
+  }
+  .nav__link-footer {
+    text-decoration: none;
+    color: $color-gray-dark;
+    transition: 0.3s ease-in;
+  }:hover {
+    color: $color-goldenrode;
+  }
+
+}

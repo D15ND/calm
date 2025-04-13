@@ -1,0 +1,36 @@
+.footer {
+  .wrapper {
+    padding: 100px 200px;
+  }
+
+  .footer__logo {
+    margin-bottom: 10px;
+  }
+
+  .footer__description {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: $color-gray-dark;
+  }
+
+  .footer__catigories {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    .catigories__link {
+      font-family: "Roboto";
+      font-size: 13px;
+      color: $color-gray-dark;
+      text-decoration: none;
+      transition: 0.3s ease-in;
+    }:hover {
+      color: $color-goldenrode;
+    }
+  }
+
+  span {
+    color: $color-goldenrode;
+  }
+}

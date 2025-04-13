@@ -31,6 +31,25 @@
   color: goldenrod;
 }
 
+.footer__navigation {
+  width: 335px;
+}
+.footer__navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__navigation .navigation__list-footer {
+  list-style-type: none;
+}
+.footer__navigation .nav__link-footer {
+  text-decoration: none;
+  color: #353732;
+  transition: 0.3s ease-in;
+}
+.footer__navigation :hover {
+  color: goldenrod;
+}
+
 .btn {
   width: 82px;
   height: 38px;
@@ -244,4 +263,35 @@
   display: flex;
   justify-content: space-between;
   width: 110px;
+}
+
+.footer .wrapper {
+  padding: 100px 200px;
+}
+.footer .footer__logo {
+  margin-bottom: 10px;
+}
+.footer .footer__description {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #353732;
+}
+.footer .footer__catigories {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.footer .footer__catigories .catigories__link {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: #353732;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+.footer .footer__catigories :hover {
+  color: goldenrod;
+}
+.footer span {
+  color: goldenrod;
 }/*# sourceMappingURL=main.css.map */
